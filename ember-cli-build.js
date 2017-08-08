@@ -5,6 +5,9 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    vendorFiles: {
+      'jquery.js': null
+    },
     // Add options here
   });
 
